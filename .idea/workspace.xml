@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36166092-26e3-4119-9896-94d6a2b25bd8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/game/rules/GreenPointsRules.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/rules/TestPointRules.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EJOHJVpsmiZI6NJMS907DA4ITk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/stefanomartella/Desktop/Università/Tesi/code/ferrara-play-and-go-with-dsl&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn dependency:tree" />
+      <command value="mvn install:install-file -Dfile=C:\Users\stefanomartella\Desktop\Tesi\code\gamification-dsl\target\gamification-dsl-1.0-SNAPSHOT.jar -DgroupId=it.univaq.gamification -DartifactId=gamification-dsl -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SimulatorTest.testRule2">
+    <configuration name="DeployTest.deleteRules" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ferrara-play-and-go-with-dsl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeployTest" />
+      <option name="METHOD_NAME" value="deleteRules" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeployTest.deployRules" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ferrara-play-and-go-with-dsl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeployTest" />
+      <option name="METHOD_NAME" value="deployRules" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimulatorTest.testRule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ferrara-play-and-go-with-dsl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimulatorTest" />
+      <option name="METHOD_NAME" value="testRule" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimulatorTest.testRule2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ferrara-play-and-go-with-dsl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimulatorTest" />
+      <option name="METHOD_NAME" value="testRule2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBadgeRules.testSpecialRules" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ferrara-play-and-go-with-dsl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rules" />
+      <option name="MAIN_CLASS_NAME" value="rules.TestBadgeRules" />
+      <option name="METHOD_NAME" value="testSpecialRules" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SimulatorTest.testRule2" />
+        <item itemvalue="JUnit.DeployTest.deleteRules" />
+        <item itemvalue="JUnit.DeployTest.deployRules" />
+        <item itemvalue="JUnit.SimulatorTest.testRule" />
+        <item itemvalue="JUnit.TestBadgeRules.testSpecialRules" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36166092-26e3-4119-9896-94d6a2b25bd8" name="Changes" comment="" />
+      <created>1662310133031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662310133031</updated>
+      <workItem from="1662310134211" duration="678000" />
+      <workItem from="1662311216192" duration="184000" />
+      <workItem from="1662312170455" duration="696000" />
+      <workItem from="1662325610456" duration="1851000" />
+      <workItem from="1662386620916" duration="5049000" />
+      <workItem from="1662448206597" duration="1786000" />
+      <workItem from="1662469280495" duration="7000" />
+      <workItem from="1662478820119" duration="2486000" />
+      <workItem from="1662485002036" duration="1649000" />
+      <workItem from="1662552892594" duration="3181000" />
+      <workItem from="1662617850440" duration="202000" />
+      <workItem from="1663241744999" duration="4613000" />
+      <workItem from="1663598417348" duration="3669000" />
+      <workItem from="1663654411695" duration="1276000" />
+      <workItem from="1663656310980" duration="2554000" />
+      <workItem from="1663678947551" duration="33000" />
+      <workItem from="1663679213526" duration="3068000" />
+      <workItem from="1663873846555" duration="503000" />
+      <workItem from="1663948138286" duration="79000" />
+      <workItem from="1664194570577" duration="22000" />
+      <workItem from="1664224095853" duration="382000" />
+      <workItem from="1664395247371" duration="120000" />
+      <workItem from="1664454202868" duration="6385000" />
+      <workItem from="1664569576170" duration="14000" />
+      <workItem from="1664713989573" duration="4968000" />
+      <workItem from="1664744727223" duration="2482000" />
+      <workItem from="1664747737326" duration="297000" />
+      <workItem from="1664825679974" duration="4329000" />
+      <workItem from="1664865157428" duration="906000" />
+      <workItem from="1664897442765" duration="2373000" />
+      <workItem from="1665001888585" duration="2014000" />
+      <workItem from="1665070592581" duration="446000" />
+      <workItem from="1665157695691" duration="2948000" />
+      <workItem from="1665173595507" duration="63000" />
+      <workItem from="1665328609150" duration="309000" />
+      <workItem from="1665432387304" duration="1787000" />
+      <workItem from="1666192594943" duration="1959000" />
+      <workItem from="1667216435347" duration="19000" />
+      <workItem from="1667216466103" duration="1461000" />
+      <workItem from="1667299583844" duration="639000" />
+      <workItem from="1667753297974" duration="22000" />
+      <workItem from="1671124824397" duration="902000" />
+      <workItem from="1671640090566" duration="1341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
