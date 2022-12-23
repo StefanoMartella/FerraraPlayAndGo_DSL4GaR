@@ -40,7 +40,7 @@ public class GenericBadgeRuleTemplate {
                     .when()
                         .point()
                             .name(EQ, pointName)
-                            .score(GTE,scoreThreshold)
+                            .score(GTE, scoreThreshold)
                         .end()
                         .badgeCollection(BADGE_COLLECTION_BIND)
                             .name(EQ, badgeCollectionName)
