@@ -65,10 +65,6 @@ public class SimulatorTest {
         final InputDataFactBuilderImpl inputDataFact = InputDataFactBuilderImpl.builder()
                 .data(new HashMap<>() {{ put("sustainable", true); }})
                 .build();
-        final ClassificationFactBuilderImpl classificationFact = ClassificationFactBuilderImpl.builder()
-                .name(Classification.FINAL_CLASSIFICATION_GREEN)
-                .position(3)
-                .build();
 
         // Expectations
         CheckExpectationLambda doesContain10PointGreenBadge = () -> Assert.assertTrue(
@@ -78,7 +74,7 @@ public class SimulatorTest {
                 "The '50-point-green' badge has been assigned", badgeCollectionFact.getBadgeEarned().contains(Badge.GREEN_50_POINTS));
 
         new SimulationBuilderImpl()
-                .addFacts(pointFact, gameFact, playerFact, badgeCollectionFact, classificationFact, inputDataFact)
+                .addFacts(pointFact, gameFact, playerFact, badgeCollectionFact, inputDataFact)
                 .addRules(GreenPointsRules.getGreenSustainableBonusRule(), GreenBadgeRules.getGreenBadge10Rule(), GreenBadgeRules.getGreenBadge50Rule())
                 .addExpectations(has70Points, doesContain10PointGreenBadge, doesContain50PointGreenBadge)
                 .simulateAndClose();

@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="36166092-26e3-4119-9896-94d6a2b25bd8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/rules/templates/GenericBadgeRuleTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/rules/templates/GenericBadgeRuleTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeployTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeployTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SimulatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimulatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +67,7 @@
       <command value="mvn install:install-file -Dfile=C:\Users\stefanomartella\Desktop\Università\Tesi\code\gamification-dsl\target\gamification-dsl-1.0-SNAPSHOT.jar -DgroupId=it.univaq.gamification -DartifactId=gamification-dsl -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeployTest.deleteRules">
+  <component name="RunManager" selected="JUnit.SimulatorTest.testRule2">
     <configuration name="DeployTest.deleteRules" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ferrara-play-and-go-with-dsl" />
       <option name="PACKAGE_NAME" value="" />
@@ -128,9 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimulatorTest.testRule2" />
         <item itemvalue="JUnit.DeployTest.deleteRules" />
         <item itemvalue="JUnit.DeployTest.deployRules" />
-        <item itemvalue="JUnit.SimulatorTest.testRule2" />
         <item itemvalue="JUnit.SimulatorTest.testRule" />
         <item itemvalue="JUnit.TestBadgeRules.testSpecialRules" />
       </list>
@@ -192,7 +190,8 @@
       <workItem from="1671658051012" duration="427000" />
       <workItem from="1671660671777" duration="1199000" />
       <workItem from="1671723621898" duration="3003000" />
-      <workItem from="1671814545323" duration="1202000" />
+      <workItem from="1671814545323" duration="3628000" />
+      <workItem from="1672125284165" duration="340000" />
     </task>
     <servers />
   </component>
