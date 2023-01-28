@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="36166092-26e3-4119-9896-94d6a2b25bd8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SimulatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimulatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/rules/ChallengeGameRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/rules/ChallengeGameRules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/rules/GreenPointsRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/rules/GreenPointsRules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/rules/GroupChallengeRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/rules/GroupChallengeRules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/rules/PPlusRPointsRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/rules/PPlusRPointsRules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/rules/SpecialBadgeRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/rules/SpecialBadgeRules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/rules/templates/ClassificationRuleTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/rules/templates/ClassificationRuleTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/rules/templates/GenericBadgeRuleTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/rules/templates/GenericBadgeRuleTemplate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,24 +48,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/stefanomartella/Desktop/Università/Tesi/code/ferrara-play-and-go-with-dsl&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/stefanomartella/Desktop/Università/Tesi/code/ferrara-play-and-go-with-dsl",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn dependency:tree" />
@@ -88,6 +94,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeployTest.testTimestamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ferrara-play-and-go-with-dsl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeployTest" />
+      <option name="METHOD_NAME" value="testTimestamp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimulatorTest.testRule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ferrara-play-and-go-with-dsl" />
       <option name="PACKAGE_NAME" value="" />
@@ -108,29 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBadgeRules.testSpecialRules" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ferrara-play-and-go-with-dsl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rules.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rules" />
-      <option name="MAIN_CLASS_NAME" value="rules.TestBadgeRules" />
-      <option name="METHOD_NAME" value="testSpecialRules" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SimulatorTest.testRule2" />
+        <item itemvalue="JUnit.SimulatorTest.testRule" />
+        <item itemvalue="JUnit.DeployTest.testTimestamp" />
         <item itemvalue="JUnit.DeployTest.deleteRules" />
         <item itemvalue="JUnit.DeployTest.deployRules" />
-        <item itemvalue="JUnit.SimulatorTest.testRule" />
-        <item itemvalue="JUnit.TestBadgeRules.testSpecialRules" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,12 @@
       <workItem from="1671660671777" duration="1199000" />
       <workItem from="1671723621898" duration="3003000" />
       <workItem from="1671814545323" duration="3628000" />
-      <workItem from="1672125284165" duration="340000" />
+      <workItem from="1672125284165" duration="2976000" />
+      <workItem from="1673774000005" duration="1380000" />
+      <workItem from="1673777352149" duration="2668000" />
+      <workItem from="1674376643970" duration="610000" />
+      <workItem from="1674896197734" duration="18000" />
+      <workItem from="1674896738732" duration="9412000" />
     </task>
     <servers />
   </component>

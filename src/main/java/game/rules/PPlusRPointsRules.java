@@ -28,8 +28,8 @@ public class PPlusRPointsRules {
 
         return new PackageDescrBuilderImpl()
                 .name("eu.trentorise.game.model")
-                .newImport(InputData.class.getName()).end()
-                .newImport(PointConcept.class.getName()).end()
+                .newImport(InputData.class).end()
+                .newImport(PointConcept.class).end()
                 .newRule()
                 .name("update p+r points")
                     .when()

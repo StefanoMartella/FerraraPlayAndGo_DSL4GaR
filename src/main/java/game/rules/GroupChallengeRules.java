@@ -23,9 +23,9 @@ public class GroupChallengeRules {
 
         return new PackageDescrBuilderImpl()
                 .name("eu.trentorise.game.model")
-                .newImport(ChallengeConcept.class.getName()).end()
-                .newImport(Reward.class.getName()).end()
-                .newImport(PointConcept.class.getName()).end()
+                .newImport(ChallengeConcept.class).end()
+                .newImport(Reward.class).end()
+                .newImport(PointConcept.class).end()
                 .newRule()
                 .name("reward completing first group challenge")
                     .when()

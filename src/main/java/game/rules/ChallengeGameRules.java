@@ -19,9 +19,9 @@ public class ChallengeGameRules {
 
         return new PackageDescrBuilderImpl()
                 .name("eu.trentorise.game.model")
-                .newImport(ChallengeConcept.class.getName()).end()
-                .newImport(PointConcept.class.getName()).end()
-                .newImport(PointConcept.class.getName()).end()
+                .newImport(ChallengeConcept.class).end()
+                .newImport(PointConcept.class).end()
+                .newImport(PointConcept.class).end()
                 .newRule()
                 .name("challenge")
                     .attribute("lock-on-active", "true")
