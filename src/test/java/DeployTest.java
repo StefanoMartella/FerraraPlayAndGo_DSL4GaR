@@ -2,6 +2,7 @@ import deploy.Deployer;
 import game.rules.ClassificationRules;
 import game.rules.GreenBadgeRules;
 import game.rules.GreenPointsRules;
+import it.univaq.gamification.dsl.builders.lhs.PackageDescr;
 import org.junit.Test;
 
 import java.io.IOException;
