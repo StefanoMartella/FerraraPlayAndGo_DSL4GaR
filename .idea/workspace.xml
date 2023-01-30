@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36166092-26e3-4119-9896-94d6a2b25bd8" name="Changes" comment="Update DSL4GaR">
+    <list default="true" id="36166092-26e3-4119-9896-94d6a2b25bd8" name="Changes" comment="fix: global type not defined">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/concepts/Global.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/concepts/Global.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DeployTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeployTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SimulatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimulatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,37 +39,47 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="2EJOHJVpsmiZI6NJMS907DA4ITk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/stefanomartella/Desktop/Universita/Tesi/code/ferrara-play-and-go-with-dsl&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/stefanomartella/Desktop/Universita/Tesi/code/dsl4gar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.445977",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "550fae9b77380a638c8cd659fe375da8"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn dependency:tree" />
       <command value="mvn install:install-file -Dfile=C:\Users\stefanomartella\Desktop\Tesi\code\gamification-dsl\target\gamification-dsl-1.0-SNAPSHOT.jar -DgroupId=it.univaq.gamification -DartifactId=gamification-dsl -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true" />
       <command value="mvn install:install-file -Dfile=C:\Users\stefanomartella\Desktop\Università\Tesi\code\gamification-dsl\target\gamification-dsl-1.0-SNAPSHOT.jar -DgroupId=it.univaq.gamification -DartifactId=gamification-dsl -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true" />
+      <command value="mvn install:install-file -Dfile=C:\Users\stefanomartella\Downloads\DSL4GaR-1.0.0-SNAPSHOT.jar -DgroupId=it.univaq.gamification -DartifactId=gamification-dsl -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true" />
+      <command value="mvn install:install-file -Dfile=C:\Users\stefanomartella\Downloads\dsl4gar-1.0.0.jar -DgroupId=it.univaq.gamification -DartifactId=gamification-dsl -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true" />
+      <command value="mvn install:install-file -Dfile=C:\Users\stefanomartella\Desktop\Università\Tesi\code\gamification-dsl\target\dsl4gar-1.0.0.jar -DgroupId=it.univaq.gamification -DartifactId=gamification-dsl -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true" />
+      <command value="mvn dependency:tree" />
+      <command value="mvn clean install -U" />
+      <command value="mvn install:install-file -Dfile=C:\Users\stefanomartella\Desktop\Universita\Tesi\code\gamification-dsl\target\dsl4gar-1.0.0.jar -DgroupId=it.univaq.gamification -DartifactId=gamification-dsl -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true" />
+      <command value="mvn install:install-file -Dfile=C:\Users\stefanomartella\Desktop\Universita\Tesi\code\dsl4gar\target\dsl4gar-1.0.0.jar -DgroupId=it.univaq.gamification -DartifactId=gamification-dsl -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true" />
+      <command value="mvn install:install-file -Dfile=C:\Users\stefanomartella\Desktop\Universita\Tesi\code\dsl4gar\target\dsl4gar-1.0.0.jar -DgroupId=it.univaq.gamification -DartifactId=dsl4gar -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeployTest.deleteRules">
+  <component name="RunManager" selected="JUnit.SimulatorTest.testRule">
     <configuration name="DeployTest.deleteRules" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ferrara-play-and-go-with-dsl" />
       <option name="PACKAGE_NAME" value="" />
@@ -121,10 +132,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimulatorTest.testRule" />
+        <item itemvalue="JUnit.SimulatorTest.testRule2" />
         <item itemvalue="JUnit.DeployTest.deleteRules" />
         <item itemvalue="JUnit.DeployTest.deployRules" />
-        <item itemvalue="JUnit.SimulatorTest.testRule2" />
-        <item itemvalue="JUnit.SimulatorTest.testRule" />
         <item itemvalue="JUnit.DeployTest.testTimestamp" />
       </list>
     </recent_temporary>
@@ -194,7 +205,9 @@
       <workItem from="1674896738732" duration="12962000" />
       <workItem from="1674991535308" duration="349000" />
       <workItem from="1674991966333" duration="249000" />
-      <workItem from="1675009239741" duration="2582000" />
+      <workItem from="1675009239741" duration="7909000" />
+      <workItem from="1675034434411" duration="3024000" />
+      <workItem from="1675037470399" duration="2169000" />
     </task>
     <task id="LOCAL-00001" summary="Update DSL4GaR">
       <created>1674913663437</created>
@@ -203,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674913663437</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix: global type not defined">
+      <created>1675012388120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675012388120</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +242,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update DSL4GaR" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update DSL4GaR" />
+    <MESSAGE value="fix: global type not defined" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: global type not defined" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
